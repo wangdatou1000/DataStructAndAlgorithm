@@ -1,3 +1,4 @@
+package string;
 public class BMForSubString {
 
 	public static void main(String[] args) {
