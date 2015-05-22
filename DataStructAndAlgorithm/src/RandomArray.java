@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+import ALgorithm.Sort;
 import tools.tools;
 
 public class RandomArray {
