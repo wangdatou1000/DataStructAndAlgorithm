@@ -9,11 +9,11 @@ import java.util.LinkedList;
  * @version 1.0, 2015年5月22日 上午8:43:24
  */
 
-public class Sort {
+public class Sortv2 {
 
 	public static void main(String[] args) {
 		int a[] = { 3, 2, 1, 9, 4, 8, 99, 33, 25, 22, 10, 9, 100, 44, 11 };
-		Sort st = new Sort();
+		Sortv2 st = new Sortv2();
 		// st.sortByFastSortV2(0, a.length-1, a);
 		// st.heapSort(a);
 		st.mergeSort(0, a.length - 1, a);
