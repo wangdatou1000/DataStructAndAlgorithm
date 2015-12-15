@@ -3,6 +3,8 @@
  */
 package ALgorithm;
 
+import java.util.HashMap;
+
 import tools.tools;
 
 /**
@@ -21,10 +23,17 @@ public class TestSort {
 	 * @throws
 	 */
 	public static void main(String[] args) {
-		int a[] = tools.getRandomArray(10);
-		SortAlgorithm insertionSort = new InsertionSort();
+		int a[] = { 3, 2, 1, 9, 4, 8, 99, 33, 9, 22, 10, 9, 100, 44, 11 };
+		// tools.getRandomArray(2000);
+		HashMap<String, SortAlgorithm> sortMap = new HashMap();
+		sortMap.put("insertionSort", new InsertionSort());
+		sortMap.put("mergeSort", new MergeSort());
+		sortMap.put("heapSort", new HeapSort());
+		sortMap.put("quickSort", new QuickSort());
 		tools.printArray(a);
-		insertionSort.sort(a);
+		// sortMap.get("insertionSort").sort(a);
+		// sortMap.get("mergeSort").sort(a);
+		sortMap.get("quickSort").sort(a);
 		tools.printArray(a);
 	}
 

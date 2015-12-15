@@ -16,7 +16,7 @@ public class tools {
 		for (int i = 0, m = a.length; i < m; i++) {
 			System.out.print(a[i] + " ");
 		}
-		System.out.print("]");
+		System.out.print("]\n");
 	}
 
 	public static void swap(int a, int b, int[] array) {
