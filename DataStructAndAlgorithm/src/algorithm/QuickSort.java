@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ALgorithm;
+package algorithm;
 
 import tools.tools;
 

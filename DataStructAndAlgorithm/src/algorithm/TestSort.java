@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ALgorithm;
+package algorithm;
 
 import java.util.HashMap;
 

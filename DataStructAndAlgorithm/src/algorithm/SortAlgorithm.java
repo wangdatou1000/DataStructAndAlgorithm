@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ALgorithm;
+package algorithm;
 
 /**
  * 功能描述：
