@@ -19,6 +19,7 @@ public class InsertionSort implements SortAlgorithm {
 	@Override
 	public void sort(int[] a) {
 		int key = 0;
+		//
 		for (int j = 1, size = a.length; j < size; j++) {
 			key = a[j];
 			int i = j - 1;
